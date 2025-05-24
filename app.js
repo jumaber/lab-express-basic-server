@@ -8,6 +8,8 @@ const morgan = require('morgan');
 // Here you should create your Express app:
 const app = express();
 const projects = require("./public/data/projects.json");
+const articles = require("./public/data/articles.json");
+
 
 
 // MIDDLEWARE
